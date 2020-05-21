@@ -1,0 +1,381 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px;
+}
+
+.focus img {
+    width: 720px;
+    height: 455px;
+}
+
+.arrow_left,
+.arrow_right {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.arrow_left {
+    font-family: 'icomoon';
+    transform: rotate(180deg);
+    color: #fff;
+    font-size: 18px;
+    left: 0;
+}
+
+.arrow_right {
+    font-family: 'icomoon';
+    font-size: 18px;
+    color: #fff;
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    margin: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+
+.news_hd {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.news_hd span {
+    margin-left: 15px;
+}
+
+.news_hd a {
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+.news_hd a::after {
+    font-family: "icomoon";
+    content: "\ea50";
+}
+
+.news_bd {
+    padding: 10px 0 0 15px;
+}
+
+.news_bd li {
+    height: 23px;
+}
+
+.news_bd span {
+    font-weight: 700;
+}
+
+
+.bargin {
+    height: 75px;
+    margin-top: 5px;
+}
+
+
+.lifeservice {
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 260px;
+}
+
+.lifeservice li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.lifeservice li:nth-child(2) {
+    position: relative;
+}
+
+.lifeservice li a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+
+.lifeservice p {
+    text-align: center;
+}
+
+.lifeservice_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+
+.hot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg) no-repeat;
+}
+
+.lifeservice_ico_huafei {
+    background-position: -17px -16px;
+}
+
+.lifeservice_ico_jipiao {
+    background-position: -79px -17px;
+}
+
+.lifeservice_ico_dianyingpiao {
+    background-position: -142px -17px;
+}
+
+.lifeservice_ico_youxi {
+    background-position: -204px -17px;
+}
+
+.lifeservice_ico_caipiao {
+    background-position: -17px -90px;
+}
+
+.lifeservice_ico_jiayouka {
+    background-position: -79px -90px;
+}
+
+.lifeservice_ico_jiudian {
+    background-position: -142px -90px;
+}
+
+.lifeservice_ico_huochepiao {
+    background-position: -205px -90px;
+}
+
+.lifeservice_ico_zhongchou {
+    background-position: -17px -159px;
+}
+
+.lifeservice_ico_licai {
+    background-position: -79px -159px;
+}
+
+.lifeservice_ico_lipingka {
+    background-position: -142px -156px;
+}
+
+.lifeservice_ico_baitiao {
+    background-position: -205px -159px;
+}
+
+.bargin {
+    height: 75px;
+    margin-top: 5px;
+}
+
+/* 推荐 */
+.recommed {
+    height: 163px;
+    margin-top: 10px;
+    background-color: aquamarine;
+}
+
+.recommed_hd {
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    background-color: #5c5251;
+}
+
+.recommed_hd img {
+    margin: 30px 0 10px 0;
+}
+
+.recommed_hd h3 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+.recommed_bd {
+    width: 1000px;
+    height: 100%;
+    background-color: #ebebeb;
+}
+
+.recommed_bd img {
+    transition: all .5s;
+}
+
+.recommed_bd img:hover {
+    transform: translate(0, -8px);
+}
+
+.recommed_bd li {
+    float: left;
+    width: 249px;
+    border-right: 1px solid #ccc;
+    height: 145px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.recommed_bd li:last-child {
+    border-right: 0;
+}
+
+/* 楼层区 */
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 25px;
+}
+
+.box_hd h3 {
+    font-size: 18px;
+    color: #c81623;
+}
+
+.tab_list {
+    line-height: 30px;
+}
+
+.tab_list li {
+    float: left;
+}
+
+.tab_list li:nth-child(2n) {
+    height: 12px;
+    width: 1px;
+    background-color: #ccc;
+    margin: 10px 15px 0 15px;
+}
+
+.box_bd {
+    height: 360px;
+}
+
+.box_bd img {
+    transition: all .5s;
+}
+
+.box_bd img:hover {
+    transform: translate(-8px, 0);
+}
+
+.box_bd li {
+    overflow: hidden;
+}
+
+.w209 {
+    height: 100%;
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.tab_content {
+    height: 360px;
+}
+
+.tab_content li {
+    float: left;
+}
+
+.tab_con_item {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab_con_list {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.tab_con_list li {
+    width: 86px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 12px;
+}
+
+/* 电梯导航 */
+.fixedtool {
+    position: fixed;
+    top: 350px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    background-color: #fff;
+}
+
+.fixedtool li {
+    text-align: center;
+    line-height: 32px;
+    height: 32px;
+    border-bottom: 1px solid #ccc;
+}
+
+.fixedtool li:hover {
+    background-color: #c81623;
+    color: #fff;
+    cursor: pointer;
+}

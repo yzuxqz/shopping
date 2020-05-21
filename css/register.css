@@ -1,0 +1,159 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head {
+    border-bottom: 2px solid #b1191a;
+}
+
+.head a {
+    display: block;
+    width: 200px;
+    height: 80px;
+    padding: 16px 0 12px 0;
+}
+
+.register {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 25px;
+}
+
+.register_hd {
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+}
+
+.register h3 {
+    float: left;
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.login {
+    float: right;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.login a {
+    color: #c81623;
+}
+
+.register_body {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.register_body ul li {
+    margin-bottom: 20px;
+}
+
+.register_body ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.register_body ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+
+}
+
+.error {
+    color: #c81623;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.success {
+    color: green;
+}
+
+.success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+
+.register_body .safe {
+    padding-left: 167px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    padding-left: 95px;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.submit input {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 100px;
+}
+
+.mod_copyright {
+    padding-top: 20px;
+}
+
+.mod_copyright .links {
+    widows: 100%;
+    height: 20px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+
+.mod_copyright .links ul li {
+    float: left;
+}
+
+.mod_copyright .links ul li:nth-child(even) {
+    width: 1px;
+    height: 10px;
+    background-color: #666;
+    margin: 5px 15px;
+}
+
+.copyright {
+    text-align: center;
+    line-height: 20px;
+}
