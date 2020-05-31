@@ -359,6 +359,7 @@
 
 /* 电梯导航 */
 .fixedtool {
+    display: none;
     position: fixed;
     top: 350px;
     left: 50%;
@@ -372,6 +373,11 @@
     line-height: 32px;
     height: 32px;
     border-bottom: 1px solid #ccc;
+}
+
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
 }
 
 .fixedtool li:hover {
